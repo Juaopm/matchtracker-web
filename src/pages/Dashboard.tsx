@@ -1,19 +1,18 @@
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+
 function Dashboard() {
   return (
-    <div>
+    <div className="flex min-h-screen flex-col">
       {/*Header */}
-      <header>
-        <h1>Header</h1>
-      </header>
+      <Header />
 
-      <div>
+      <div className="flex flex-1">
         {/* Sidebar */}
-        <aside>
-          <h2>Sidebar</h2>
-        </aside>
+        <Sidebar />
 
         {/* Main */}
-        <main>
+        <main className="flex-1 bg-slate-100 p-6">
           {/* Recent Matches */}
           <section>
             <h2>Recent Matches</h2>
