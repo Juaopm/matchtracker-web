@@ -1,11 +1,15 @@
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 
+const props = {
+  title: "MatchTracker+",
+};
+
 function Dashboard() {
   return (
     <div className="flex min-h-screen flex-col">
       {/*Header */}
-      <Header />
+      <Header title={props.title} />
 
       <div className="flex flex-1">
         {/* Sidebar */}
