@@ -4,7 +4,7 @@ import DashboardCard from "../components/DashboardCard";
 
 function Dashboard() {
   return (
-    <div className="bg-slate-900 text-white flex min-h-screen flex-col">
+    <div className="bg-slate-900 flex min-h-screen flex-col">
       {/*Header */}
       <Header title="MatchTracker+" />
 
@@ -16,22 +16,22 @@ function Dashboard() {
         <main className="flex-1 grid grid-cols-3 gap-4 p-6">
           {/* Recent Matches */}
           <div className="row-span-3">
-            <DashboardCard title="Recent Matches" />
+            <DashboardCard title="RECENT MATCHES" />
           </div>
 
           {/* Performance */}
           <div className="row-span-2">
-            <DashboardCard title="Performance Trend" />
+            <DashboardCard title="PERFORMANCE TREND" />
           </div>
 
           {/* Win/Loss */}
           <div className="row-span-2">
-            <DashboardCard title="Win/Loss" />
+            <DashboardCard title="WIN/LOSS" />
           </div>
 
           {/* Leaderboard */}
           <div className="col-span-2">
-            <DashboardCard title="Leaderboard" />
+            <DashboardCard title="LEADERBOARD" />
           </div>
         </main>
       </div>
