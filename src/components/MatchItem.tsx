@@ -19,9 +19,9 @@ function MatchItem({
 
   return (
     <div className={`grid grid-cols-[2fr_1fr_1fr] ${resultClass} p-3`}>
-      <span className="font-medium">{map}</span>
-      <span className="text-center">{kd}</span>
-      <span className="text-center">{date}</span>
+      <span className="font-medium text-slate-900">{map}</span>
+      <span className="text-center text-sm text-slate-700">{kd}</span>
+      <span className="text-center text-sm text-slate-700">{date}</span>
     </div>
   );
 }

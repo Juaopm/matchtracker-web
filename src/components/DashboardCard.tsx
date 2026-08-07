@@ -9,7 +9,9 @@ function DashboardCard({
 }) {
   return (
     <div className="bg-slate-800 h-full rounded-xl shadow-md p-6">
-      <h2 className="font-bold text-white">{title}</h2>
+      <h2 className="text-sm font-semibold tracking-wide text-white">
+        {title}
+      </h2>
       {children}
     </div>
   );

@@ -50,7 +50,7 @@ function Dashboard() {
           {/* Recent Matches */}
           <div className="row-span-3">
             <DashboardCard title="RECENT MATCHES">
-              <div className="grid grid-cols-[2fr_1fr_1fr] text-xs text-white border-b border-gray-200 pb-2 mb-2 mt-4">
+              <div className="grid grid-cols-[2fr_1fr_1fr] text-xs font-medium uppercase text-slate-400 border-b border-gray-200 pb-2 mb-2 mt-4">
                 <span>MAP</span>
                 <span className="text-center">K/D</span>
                 <span className="text-center">DATE</span>
