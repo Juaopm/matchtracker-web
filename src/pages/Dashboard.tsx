@@ -39,7 +39,7 @@ function Dashboard() {
   return (
     <div className="bg-slate-900 flex min-h-screen flex-col">
       {/*Header */}
-      <Header title="MatchTracker+" />
+      <Header />
 
       <div className="flex flex-1">
         {/* Sidebar */}
